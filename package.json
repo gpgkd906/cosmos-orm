@@ -1,0 +1,25 @@
+{
+  "name": "cosmos-orm",
+  "version": "0.0.1",
+  "description": "orm for cosmos",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "",
+    "test": "echo \"No tests yet...\""
+  },
+  "main": "index.ts",
+  "repository": "git@github.com:gpgkd906/cosmos-orm.git",
+  "author": "chenhan <gpgkd906@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.2.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^3.14.1"
+  }
+}
